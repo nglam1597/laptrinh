@@ -143,6 +143,16 @@ namespace hocbai.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Nhà_Sản_Xuất {
+            get {
+                object obj = ResourceManager.GetObject("Nhà Sản Xuất", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Product_Key_Finder {
             get {
                 object obj = ResourceManager.GetObject("Product Key Finder", resourceCulture);

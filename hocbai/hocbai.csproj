@@ -72,6 +72,12 @@
     <Compile Include="UC\UCKhoHang.Designer.cs">
       <DependentUpon>UCKhoHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC\UCNhaCungCap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCNhaCungCap.Designer.cs">
+      <DependentUpon>UCNhaCungCap.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -87,6 +93,9 @@
     </Compile>
     <EmbeddedResource Include="UC\UCKhoHang.resx">
       <DependentUpon>UCKhoHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCNhaCungCap.resx">
+      <DependentUpon>UCNhaCungCap.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="HeThongQuanLyBanHangDataSet.xsc">
       <DependentUpon>HeThongQuanLyBanHangDataSet.xsd</DependentUpon>
@@ -155,6 +164,9 @@
       <Project>{650cab0c-51df-42c6-a217-818e0277aecb}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nhà Sản Xuất.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

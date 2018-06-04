@@ -110,5 +110,11 @@ namespace hocbai
         {
             DongTab();
         }
+
+        private void btnNhaCungCap_Click(object sender, EventArgs e)
+        {
+            UCNhaCungCap uCNhaCungCap = new UCNhaCungCap();
+            addtab("Nhà Cung Cấp",uCNhaCungCap);
+        }
     }
 }
